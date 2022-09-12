@@ -4,11 +4,10 @@ module.exports = {
     description: `ITDEV-164 Gatsby Blog`,
     author: `John Wynne`,
     contact: {
-      name:`John Wynne`,
+      name: `John Wynne`,
       company: `Blogs Inc.`,
-      address: `Parts Unknown,FL`
-
-    }
+      address: `Parts Unknown,FL`,
+    },
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -17,6 +16,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `4a33sln09nyi`,
+        accessToken: `ZP_wAcaofgCbjIBwemo5vUCg9AqDahmIAyAxFJho4dM`,
       },
     },
     `gatsby-transformer-sharp`,
