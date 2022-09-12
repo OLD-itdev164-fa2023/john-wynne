@@ -1,9 +1,11 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+
+
 
 const About = ({ data }) => {
     const { name, company} = data.site.setMetadata.contact;
