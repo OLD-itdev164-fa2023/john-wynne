@@ -22,7 +22,7 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `z56ofwmg8sse`,
-        accessToken: `ZsnFXlucNfRy4VZYIdDRnfn4sz91Fno38bSBZElwf--Q`,
+        accessToken: `snFXlucNfRy4VZYIdDRnfn4sz91Fno38bSBZElwf--Q`,
       },
     },
     `gatsby-transformer-sharp`,
